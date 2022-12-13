@@ -39,11 +39,11 @@ public class AppTest
             fail("\"message\" is not \"Hello World!\"");
         }
     }
-    @Test
-    public void testFail(){
-        int a = 10;
-        assertEquals(a,11);
-    }
+//    @Test
+//    public void testFail(){
+//        int a = 10;
+//        assertEquals(a,11);
+//    }
 
     @After
     public void cleanUpStreams() {

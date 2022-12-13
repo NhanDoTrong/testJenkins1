@@ -16,5 +16,20 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="secuTix2NexusSnapshotRepository" />
+      <option name="name" value="secuTix2NexusSnapshotRepository" />
+      <option name="url" value="http://ci.stx.local/nexus/content/repositories/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="secuTix2NexusRepository" />
+      <option name="name" value="secuTix2NexusRepository" />
+      <option name="url" value="http://ci.stx.local/nexus/content/repositories/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="secuTix2NexusThirdpartyRepository" />
+      <option name="name" value="secuTix2NexusThirdpartyRepository" />
+      <option name="url" value="http://ci.stx.local/nexus/content/repositories/thirdparty" />
+    </remote-repository>
   </component>
 </project>
